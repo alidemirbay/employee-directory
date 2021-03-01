@@ -4,11 +4,8 @@ const Table = ({ result }) => {
     return (
 
         <div className="datatable mt-5">
-            <table
-                id="table"
-                className="table table-striped table-hover table-condensed"
-            >
-                <thead>
+            <table id="table" className="table table-striped table-hover table-condensed" >
+                <thead className=" bg-primary text-light" >
                     <tr>
                         <th className="col" style={{ width: "20%" }}>PICTURE</th>
                         <th className="col" style={{ width: "10%" }}>NAME</th>
