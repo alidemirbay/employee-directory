@@ -1,5 +1,5 @@
 import React from 'react'
-import Tablebody from '../TableBody/TableBody'
+import TableData from '../TableData/TableData'
 const Table = ({ result }) => {
     return (
 
@@ -10,15 +10,15 @@ const Table = ({ result }) => {
             >
                 <thead>
                     <tr>
-                        <th className="col" style={{ width: "10%" }}>PICTURE</th>
+                        <th className="col" style={{ width: "20%" }}>PICTURE</th>
                         <th className="col" style={{ width: "10%" }}>NAME</th>
-                        <th className="col" style={{ width: "10%" }}>GENDER</th>
+                        <th className="col" style={{ width: "20%" }}>GENDER</th>
                         <th className="col" style={{ width: "20%" }}>PHONE</th>
-                        <th className="col" style={{ width: "20%" }}>EMAIL</th>
+                        <th className="col" style={{ width: "30%" }}>EMAIL</th>
                     </tr>
                 </thead>
 
-                <Tablebody result={result} />
+                <TableData result={result} />
             </table>
         </div>
     );
